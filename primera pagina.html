@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mas etiquetas</title>
+</head>
+<body>
+ <h1>multimedia</h1>
+<br>
+ <iframe width="861" 
+ height="700" 
+ src="https://www.youtube.com/embed/AmCBWOgoF6k" 
+ title="Powerchair Football - Final Copa 
+ &quot;Rio de la Plata
+ &quot; - Rengos a Motor vs. Tigres de Pacheco" 
+ frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<br>
+<br>
+ <!-- eriquetas anchor(enlaces) y listas -->
+  <!-- align no lo pude hacer andar con el video -->
+<p align="center"></p></p><a href="https://powerchair.org.ar/ ">ir a pagina web</a>
+<a href="home">home</a>
+<a href="about">about</a>
+<!-- lista ordenada  -->
+ <h2>lista ordenada</h2>
+ <ol>
+   <li>uno</li>
+   <li>dos</li>
+   <li>tres</li>
+   <li>cuatro</li>
+ </ol>
+ <!-- lista sin numero estructura de abajo -->
+  <h2>lista sin numero estructura de abajo, o lista desordenada</h2>
+ <ul>
+  <li>elemento</li>
+  <li>elemento</li>
+  <li>elemento</li>
+  <li>elemento</li>
+ </ul>
+ <!-- lista de definicion -->
+  <h2>lista de definicion</h2>
+ <dl>
+   <dt>HTML</dt>
+   <dd>Lenguaje de etiquetas</dd>
+   <dt>CSS</dt>
+   <dd>lenguaje de estilos</dd>
+ </dl>
+ <!-- etiquetas de tablas en el html -->
+  <h2>tablas</h2>
+  <!-- todo metido dentro de la gran etiqueta que es table  -->
+  <table>
+    <!-- thead es la etiqueta que seria la parte de arriba de la tabla -->
+      <thead>
+            <tr>
+                <th colspan="2">informacion personal</th>
+                <th>ciudad</th>
+            </tr>
+      </thead>
+      <!-- tbody es el cuerpo de la tabla  -->
+      <tbody> <tr>
+        <td>paola</td>
+        <td>52</td>
+        <td rowspan="2">castelar</td>
+        <tr>
+    <tr>
+      <td>andres</td>
+      <td>52</td>
+      <td rowspan="2">castelar</td>
+    </tr>
+      <tr>
+      <td>giuliana</td>
+      <td>11</td>
+      <td rowspan="1">castelar</td>
+        </tr>
+      </tbody>
+      <!-- tfoo seria como el pie o el final de la tabla -->
+      <tfoot>
+        <tr>
+          <td colspan="3">pie de la tabla</td>
+        </tr>
+      </tfoot>  
+  </table>
+  <!-- formularios se usa la eriqueta imput leer mas de esta en detalles en la teoria-->
+   <h2>FORMULARIOS</h2>
+   <!-- ejemplo de formulario estructura-->
+<form action="enviar-datos" method="post">
+  <div><label for="name">tu nombre</label>
+    <input type=" texto"id="nombre"name="nombre">
+    <label for="consulta">tipo de consulta</label>
+   </div>
+  <br>
+  <select name="consulta" id="consulta">
+    <option value="general">consulta general</option>
+     <option value="consulta en especifico">consulta en especifico</option>
+     <option value="soporte">hablar con el soporte</option>
+  </select>
+  <br>
+    <div>
+      <label for="newsletter">suscribirse al boton </label>
+      <input" type=checkbox id="newsletter" name="newletter" checked> 
+    </div> 
+ <label for="mensaje">tu mensaje</label>
+  <textarea name="mensaje" id="mensaje" rows="4" cols="50">
+  escribe tu mensaje aqui.......
+ </textarea>
+ <div>
+  <input type="datetime">
+  <button>dale like</button>
+  <input type="submit" value="enviar consulta">
+ </div>
+</form>
+<!-- fijarse bien todo y cual es el significado de rows y cols y que esta mal acomodado -->
+</body>
+</html>
